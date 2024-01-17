@@ -7,7 +7,7 @@
 /* small screen */
 @media screen and (max-width: 800px) {
 .js #responsivemenu { display: none; }
-.js .selectnav { display: block;background: #333;color: #fff; font-size:15px;border: 1px solid #333;border-radius: 0px;max-width: 100%;margin-left: -10px;}
+.js .selectnav { display: block;background: #333;color: #fff; font-size:15px;border: 1px solid #333;border-radius: 0px;max-width: 100%;margin-left: -10px; margin-top: -90px;}
 nav {float:none;}
 .rightareaheader {float:none;}
 .showmobile {display:block;}
@@ -20,6 +20,7 @@ nav {float:none;}
 .list_carousel li {min-width:320px !important;max-width:100%;}
 .list_carousel .carousel_nav {top:-72px;}
 .actionbutton {display:block;}
+.undersliderblack {height: 450px;}
 
 .wrapaction {background:none;border:0px;}
 #nav ul li a {margin-bottom:20px;}
@@ -50,10 +51,11 @@ a.expandAll {padding: 10px;}
 
 @media screen and (max-width: 600px) {
 .boxthreecolumns, .boxtwocolumns, .boxfourcolumns, .boxfivecolumns {width:100%;}
-.da-slide .da-img {top:224px;}
+.da-slide .da-img {top:180px; margin-left: -95px;}
 .da-slide h2 {font-size:27px;top:10px;}
-.da-slide p {width:80%;font-size:15px;top:90px;height:130px;}
-.da-slide .da-link {font-size:15px;}
+.da-slide p {width:80%;font-size:15px;top:120px;height:130px;}
+.da-slide .da-link {font-size:15px; margin-top: 120px; text-align: center; margin-left: 55px;}
+.undersliderblack {height: 450px;}
 
 }
 

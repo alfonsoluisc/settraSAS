@@ -163,8 +163,34 @@ th { background-color: #d9edf0; background-image: -webkit-gradient(linear,left t
 .tab-container .tab-radio:checked ~ .tab-page { visibility: visible }
 /* =Media query for 960 Screens - sets nested grids to 100%-------------------------------------------------------------- */
 @media only screen and (max-width:960px) { 
-	.row .row .c1, .row .row .c2, .row .row .c3, .row .row .c4, .row .row .c5, .row .row .c6, .row .row .c7, .row .row .c8, .row .row .c9, .row .row .c10, .row .row .c11, .row .row .c12, .row .row .c1-5, .row .row .c1-8 { width: 100%; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; }
-	.row .row>div:last-child { margin-bottom: 0 !important }
+	.row .row .c1, 
+	.row .row .c2, 
+	.row .row .c3, 
+	.row .row .c4, 
+	.row .row .c5, 
+	.row .row .c6, 
+	.row .row .c7, 
+	.row .row .c8, 
+	.row .row .c9, 
+	.row .row .c10, 
+	.row .row .c11, 
+	.row .row .c12, 
+	.row .row .c1-5, 
+	.row .row .c1-8,
+	.logo 
+			{ width: 100%; 
+			  margin-bottom: 20px; 
+			  margin-left: 0px; 
+			  margin-right: 0px; }
+	.logo2 {
+		width: 100%; 
+		margin-bottom: 20px; 
+		margin-left: 0px; 
+		margin-right: 0px;
+	}
+	.row .row>div:last-child 
+			{ margin-bottom: 0 !important }
+	.da-slide { margin-top: -30px;}
 }
 /* =Media query for iPad and tablets-------------------------------------------------------------- */
 @media handheld,only screen and (max-width:768px),only screen and (max-device-width:768px) and (orientation:portrait) { 
@@ -566,7 +592,7 @@ ul.teambox { padding-left: 25px }
 .introtitle { margin: 0; padding: 25px 0 0; font-family: OpenSansRegular,sans-serif; font-size: 47px; color: #FFF; text-align: center; text-shadow: 2px 2px 10px #333; }
 .boxedshadow { background: url(../images/shfinal.png) no-repeat 50% 0; margin-top: -40px; min-height: 75px; opacity: 1.0; }
 .homeicon { font-size: 25px; width: 55px !Important; margin-left: -10px; }
-.logo { margin-top: -90px; height: 300px; }
+.logo { margin-top: -90px; height: 280px; }
 .wrapbox { background: #fff; padding-bottom: 30px; -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.1); -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.1); box-shadow: 0px 0px 10px rgba(0,0,0,0.1); margin-top: -35px; }
 .hrtitle { border: solid #eee; border-width: 1px 0 0; clear: both; margin: 1px 0px 19px; height: 0; }
 .stresstitle { border-bottom: #0E8FAB 1px solid; display: inline; padding-bottom: 10px; }
@@ -601,3 +627,4 @@ ul.teambox { padding-left: 25px }
 .noborder { border: 0px }
 .clear {clear:both;}
 .error input,input.error,.error textarea,textarea.error{background-color: #ffffff;  border: 1px solid #eb9468 !Important;  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s;-o-transition: border linear 0.2s, box-shadow linear 0.2s; transition: border linear 0.2s, box-shadow linear 0.2s;}.error label,label.error{color:#c60f13;}.error small,small.error{display:block;padding:6px 4px;margin-top:-13px;margin-bottom:12px;background:#c60f13;color:#fff;font-size:12px;font-weight:bold;-moz-border-radius-bottomleft:2px;-webkit-border-bottom-left-radius:2px;border-bottom-left-radius:2px;-moz-border-radius-bottomright:2px;-webkit-border-bottom-right-radius:2px;border-bottom-right-radius:2px;}.error textarea:focus,textarea.error:focus{background:#fafafa;border-color: #b3b3b3;}
+
